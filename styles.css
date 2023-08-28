@@ -7,7 +7,7 @@
 body{
     background-color: #ededed;
 }
-h3,p{
+.subtitle,.pinfo{
     margin-left: 9%;
     margin-top: 2%;
 }
@@ -29,5 +29,95 @@ a{
     font-weight: bold;
 }
 .seccion-clara{
+    padding: 20px 0;
+    margin: 40px auto;
     background-color: #fff;
+    border-radius: 15px;
+}
+.info{
+    margin-top: 10%;
+}
+.rating{
+    color: #3483fa;
+}
+.circle p{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #3483fa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.circle.active{
+    background-color: #7cb0ff;
+}
+.buttons button{
+    margin-right: 10px;
+}
+.divider{
+    width: 100%;
+    height: 1.5px;
+    margin-top: 20px;
+}
+.description a{
+    color: #3483fa;
+}
+.form,.comentarios{
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 2%;
+}
+.form input{
+    border-radius: 10px 0 0 10px;
+}
+.form button{
+    border-radius: 0px 10px 10px 0px;
+}
+.comentarios ul{
+    list-style: none;
+}
+.comentarios li{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #474747;
+}
+h5{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+.producto{
+    min-height: 140px;
+    border-top: 1px solid #474747;
+    margin-bottom: 10px;
+}
+.producto img{
+    height: 100%;
+    object-fit: contain;
+}
+.producto p{
+    margin: 0 auto;
+}
+.producto .precio{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: -30px;
+}
+.border-bottom{
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+.resumen-compra{
+    max-height: 250px;
+}
+.resumen-compra p{
+    margin-top: 7%;
+}
+.pdetalle{
+    margin-bottom: 15px;
 }
