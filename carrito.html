@@ -13,6 +13,15 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
-    
+    <div id="app">
+        <navbar :cart="cart"></navbar>
+        <cart-products :notebooks="notebooks" :cart="cart"></cart-products>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./components/Navbar.js"></script>
+    <script src="./components/CartProducts.js"></script>
+    <script>
+        const mountedApp = app.mount('#app')
+    </script>
 </body>
 </html>
